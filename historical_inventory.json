@@ -1,0 +1,304 @@
+[
+  {
+    "dataset": "E01",
+    "archive": "feedback(1).zip",
+    "rows": 60,
+    "status": {
+      "state": "completed",
+      "passed": true,
+      "quick_mode": false,
+      "started_at": "2026-10-26T19:13:13.523653+08:00",
+      "note": "新入口本轮交付前未执行；这里的状态由用户运行时生成。",
+      "finished_at": "2026-10-26T19:14:02.778491+08:00"
+    },
+    "hardware": {
+      "date": "2026-10-26T19:13:36.399100+08:00",
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.43",
+      "cpu": "AMD Ryzen 7 8845HS w/ Radeon 780M Graphics",
+      "python": "3.14.4",
+      "packages": {
+        "PyYAML": "6.0.3",
+        "numpy": "2.5.4",
+        "matplotlib": "3.11.2"
+      },
+      "requested_cpu": 0,
+      "selected_cpu": 0,
+      "compiler": "g++ (GCC) 16.1.1 20260430",
+      "flags": [
+        "-O3",
+        "-march=native",
+        "-mpclmul",
+        "-maes"
+      ],
+      "timing_language": "C++17 driver and adapted author C decoder",
+      "constant_time_equivalence": false,
+      "frequency_locked_by_runner": false,
+      "quick_mode": false,
+      "independent_seed_processes": 5,
+      "source_sha256": {
+        "run_all.py": "ed6c750d8ba3f2e4271a13b2b8f7326f3ddf661e7ed98fb86b13b69b56e9843f",
+        "verify_shortening.py": "7292f08f160519a906952afdea4861d499453a70fe5b4c9938a8961d4fb3bd98",
+        "requirements.txt": "377a2429e8817fe64c32524d763c02a3d335de500ab6a42b56b7c9596a55cf7e",
+        "tools/prepare_comparison.py": "f0210aadc0a67253ac4dd674b4a8317767e2629acc7a31497f13b1ed3e65cff7",
+        "tools/summarize.py": "31bb7b9f1905f8b7cb1a957331668709dfb075dba1c032e65e1695cbf8ca51b8",
+        "tools/run_pipeline.py": "bc3d535a95163149b164822cfe0a8083790d6d3d4202b8e7c04b732546baced3",
+        "types/analyze.py": "8294007a885f1d8c365865094c27e7f87415f9a4c3c313a4c432ea744a625fb2",
+        "types/field.hpp": "ec965c4591f17aa53aa9820498c3192e11c0030f98c1fa31593d6bfe6517237a",
+        "types/build.py": "3ed867b76af0f8680bfeff2ccf853b08a583aa9962957de086b7a257da6f685d",
+        "types/benchmark.cpp": "74e28fffac583e23555d959a6d13f0d9fd2b0262754f894a6a0a698558f4882c",
+        "types/run.py": "a754be338dacc174145cf8adf8db4855b9356686f1d8e46390c0144ebf129d22",
+        "types/field_adapter.cpp": "c90593558fcfcf7e92d034acf43ed410efe2cf8cd3eb9224fdc4008944a6313b",
+        "types/generate.py": "0dd124b56a2858e5483c6216096195a75050feb6cc68b388735425f4acd44d1c",
+        "types/util/embedding.py": "6fe6c9764e961aca3276c22982838bd463f0046bdb513407c86549faef2270c5",
+        "types/util/binary_field.py": "13a3541fc62a3ccaf3a89540f077b08fc7254e278a725132db0f25e677ed600f"
+      }
+    }
+  },
+  {
+    "dataset": "E02",
+    "archive": "feedback(3).zip",
+    "rows": 44,
+    "status": {
+      "state": "completed",
+      "passed": true,
+      "quick_mode": false,
+      "started_at": "2026-10-26T19:40:26.517737+08:00",
+      "note": "新入口本轮交付前未执行；这里的状态由用户运行时生成。",
+      "finished_at": "2026-10-26T19:41:31.587579+08:00"
+    },
+    "hardware": {
+      "date": "2026-10-26T19:40:27.315739+08:00",
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.43",
+      "cpu": "AMD Ryzen 7 8845HS w/ Radeon 780M Graphics",
+      "python": "3.14.4",
+      "packages": {
+        "PyYAML": "6.0.3",
+        "numpy": "2.5.4",
+        "matplotlib": "3.11.2"
+      },
+      "requested_cpu": 0,
+      "selected_cpu": 0,
+      "compiler": "g++ (GCC) 16.1.1 20260430",
+      "flags": [
+        "-O3",
+        "-march=native",
+        "-mpclmul",
+        "-maes"
+      ],
+      "timing_language": "C++17 driver and adapted author C decoder",
+      "constant_time_equivalence": false,
+      "frequency_locked_by_runner": false,
+      "quick_mode": false,
+      "independent_seed_processes": 20,
+      "source_sha256": {
+        "run_all.py": "ed6c750d8ba3f2e4271a13b2b8f7326f3ddf661e7ed98fb86b13b69b56e9843f",
+        "verify_shortening.py": "7292f08f160519a906952afdea4861d499453a70fe5b4c9938a8961d4fb3bd98",
+        "requirements.txt": "377a2429e8817fe64c32524d763c02a3d335de500ab6a42b56b7c9596a55cf7e",
+        "tools/prepare_comparison.py": "f0210aadc0a67253ac4dd674b4a8317767e2629acc7a31497f13b1ed3e65cff7",
+        "tools/summarize.py": "31bb7b9f1905f8b7cb1a957331668709dfb075dba1c032e65e1695cbf8ca51b8",
+        "tools/run_pipeline.py": "bc3d535a95163149b164822cfe0a8083790d6d3d4202b8e7c04b732546baced3",
+        "types/analyze.py": "8294007a885f1d8c365865094c27e7f87415f9a4c3c313a4c432ea744a625fb2",
+        "types/field.hpp": "ec965c4591f17aa53aa9820498c3192e11c0030f98c1fa31593d6bfe6517237a",
+        "types/build.py": "3ed867b76af0f8680bfeff2ccf853b08a583aa9962957de086b7a257da6f685d",
+        "types/benchmark.cpp": "74e28fffac583e23555d959a6d13f0d9fd2b0262754f894a6a0a698558f4882c",
+        "types/run.py": "a754be338dacc174145cf8adf8db4855b9356686f1d8e46390c0144ebf129d22",
+        "types/field_adapter.cpp": "c90593558fcfcf7e92d034acf43ed410efe2cf8cd3eb9224fdc4008944a6313b",
+        "types/generate.py": "0dd124b56a2858e5483c6216096195a75050feb6cc68b388735425f4acd44d1c",
+        "types/util/embedding.py": "6fe6c9764e961aca3276c22982838bd463f0046bdb513407c86549faef2270c5",
+        "types/util/binary_field.py": "13a3541fc62a3ccaf3a89540f077b08fc7254e278a725132db0f25e677ed600f"
+      }
+    }
+  },
+  {
+    "dataset": "E03",
+    "archive": "feedback(5).zip",
+    "rows": 54,
+    "status": {
+      "state": "completed",
+      "passed": true,
+      "quick_mode": false,
+      "started_at": "2026-10-27T15:44:35.346771+08:00",
+      "note": "新入口本轮交付前未执行；这里的状态由用户运行时生成。",
+      "pilot_mode": true,
+      "finished_at": "2026-10-27T15:46:19.107211+08:00"
+    },
+    "hardware": {
+      "date": "2026-10-27T15:46:02.005913+08:00",
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.43",
+      "cpu": "AMD Ryzen 7 8845HS w/ Radeon 780M Graphics",
+      "compiler": "g++ (GCC) 16.1.1 20260430",
+      "python": "3.14.4",
+      "packages": {
+        "PyYAML": "6.0.3",
+        "numpy": "2.5.4",
+        "matplotlib": "3.11.2"
+      },
+      "selected_cpu": 0,
+      "timing_language": "C++17 and adapted author C",
+      "frequency_locked_by_runner": false,
+      "constant_time_equivalence": false,
+      "source_sha256": {
+        "verify_shortening.py": "7292f08f160519a906952afdea4861d499453a70fe5b4c9938a8961d4fb3bd98",
+        "run_general.py": "23b79bff553aed5602ae0742c6746f7469cc169ce2c8391d1cca6766371f6be6",
+        "requirements.txt": "377a2429e8817fe64c32524d763c02a3d335de500ab6a42b56b7c9596a55cf7e",
+        "general/generate_general.py": "07e664f27a2c0cdd162930f64ec318a331fbed2f46ddc83802c40d1fe98203c0",
+        "general/benchmark_general.cpp": "6effc6924d5b630ec1b44a540141379cb2d4f0a4c0d88e9071439cbcfcc72d5f",
+        "general/expand_grid.py": "82a1f1c67456fd0d1852217c19ea8f7cf2e9ce70eaa241be8cff2fa9bb217e0c",
+        "general/analyze_general.py": "ed4777a47d8313f5d120dd69a6fc68d7c969480356eb4d4114734ebfdc1058f6",
+        "general/run_pipeline_general.py": "b5f2fe1ed3582ac060b1e6f5cac670708d0e41ef80790e2e97360e26bde7a78a",
+        "general/probabilities.py": "d4116bd3a1a45b5a4b5fd2095f15061d681ccfffc5ae71510f9e41d0005b31c1",
+        "tools/prepare_comparison.py": "f0210aadc0a67253ac4dd674b4a8317767e2629acc7a31497f13b1ed3e65cff7",
+        "tools/summarize.py": "31bb7b9f1905f8b7cb1a957331668709dfb075dba1c032e65e1695cbf8ca51b8",
+        "tools/run_pipeline.py": "bc3d535a95163149b164822cfe0a8083790d6d3d4202b8e7c04b732546baced3",
+        "types/analyze.py": "8294007a885f1d8c365865094c27e7f87415f9a4c3c313a4c432ea744a625fb2",
+        "types/field.hpp": "ec965c4591f17aa53aa9820498c3192e11c0030f98c1fa31593d6bfe6517237a",
+        "types/build.py": "3ed867b76af0f8680bfeff2ccf853b08a583aa9962957de086b7a257da6f685d",
+        "types/benchmark.cpp": "74e28fffac583e23555d959a6d13f0d9fd2b0262754f894a6a0a698558f4882c",
+        "types/run.py": "a754be338dacc174145cf8adf8db4855b9356686f1d8e46390c0144ebf129d22",
+        "types/field_adapter.cpp": "c90593558fcfcf7e92d034acf43ed410efe2cf8cd3eb9224fdc4008944a6313b",
+        "types/generate.py": "0dd124b56a2858e5483c6216096195a75050feb6cc68b388735425f4acd44d1c",
+        "types/util/embedding.py": "6fe6c9764e961aca3276c22982838bd463f0046bdb513407c86549faef2270c5",
+        "types/util/binary_field.py": "13a3541fc62a3ccaf3a89540f077b08fc7254e278a725132db0f25e677ed600f"
+      },
+      "pilot_mode": true
+    }
+  },
+  {
+    "dataset": "E04",
+    "archive": "feedback(10).zip",
+    "rows": 297,
+    "status": {
+      "counts": {
+        "passed": 30,
+        "failed": 8,
+        "timeout": 10
+      },
+      "planned_parameter_tuples": 24,
+      "all_planned_processes_passed": false,
+      "passed_parameter_models": 297,
+      "delivered_program_runtime_verified_by_assistant": false
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  },
+  {
+    "dataset": "E05",
+    "archive": "feedback (2).zip",
+    "rows": 62,
+    "status": {
+      "counts": {
+        "passed": 8
+      },
+      "planned_parameter_tuples": 4,
+      "all_planned_processes_passed": true,
+      "passed_parameter_models": 62,
+      "delivered_program_runtime_verified_by_assistant": false
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  },
+  {
+    "dataset": "E06",
+    "archive": "feedback (5).zip",
+    "rows": 79,
+    "status": {
+      "counts": {
+        "passed": 6
+      },
+      "planned_parameter_tuples": 3,
+      "all_planned_processes_passed": true,
+      "passed_parameter_models": 79,
+      "delivered_program_runtime_verified_by_assistant": false,
+      "partial_results_preserved": true
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  },
+  {
+    "dataset": "E07",
+    "archive": "feedback(12).zip",
+    "rows": 79,
+    "status": {
+      "counts": {
+        "passed": 6
+      },
+      "planned_parameter_tuples": 3,
+      "all_planned_processes_passed": true,
+      "passed_parameter_models": 79,
+      "delivered_program_runtime_verified_by_assistant": false,
+      "partial_results_preserved": true
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  },
+  {
+    "dataset": "E08",
+    "archive": "feedback(14).zip",
+    "rows": 120,
+    "status": {
+      "counts": {
+        "passed": 24
+      },
+      "planned_parameter_tuples": 6,
+      "all_planned_processes_passed": true,
+      "passed_parameter_models": 120,
+      "delivered_program_runtime_verified_by_assistant": false,
+      "partial_results_preserved": true
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  },
+  {
+    "dataset": "E09",
+    "archive": "feedback (6)(1).zip",
+    "rows": 141,
+    "status": {
+      "counts": {
+        "passed": 28
+      },
+      "planned_parameter_tuples": 7,
+      "all_planned_processes_passed": true,
+      "passed_parameter_models": 141,
+      "delivered_program_runtime_verified_by_assistant": false,
+      "partial_results_preserved": true
+    },
+    "hardware": {
+      "platform": "Linux-7.0.3-arch1-2-x86_64-with-glibc2.44",
+      "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "cpu": "",
+      "timing": "SageMath/Python and Sage finite-field/matrix kernels",
+      "frequency_locked": false,
+      "optimized_author_implementation": false
+    }
+  }
+]

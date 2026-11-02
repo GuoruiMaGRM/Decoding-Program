@@ -1,0 +1,195 @@
+{
+  "code_config": {
+    "name": "field_extension_64",
+    "growth_factor": 1,
+    "field_multiple": 4,
+    "base_r": 2,
+    "base_b": 1,
+    "repair_groups": 3
+  },
+  "name": "field_extension_64",
+  "q": 2,
+  "M": 64,
+  "n": 12,
+  "R": 4,
+  "r": 2,
+  "b": 1,
+  "k": 3,
+  "super_dimension": 5,
+  "d": 8,
+  "tau": 3,
+  "u": 1,
+  "ell": 3,
+  "modulus": "0x1000000000000001b",
+  "growth_factor": 1,
+  "embedding_root": "0xee7209585ca45289",
+  "alpha": "0x1",
+  "beta": [
+    "0xa181e7d66f5ff795",
+    "0x447175c8e9f2810b",
+    "0xfe3e4910c1f3f797",
+    "0x35533f6bf129a8c",
+    "0x58389eaeb7f7fa9e",
+    "0x1c49eb665e057b94",
+    "0x51fdeb176e4ee963",
+    "0xfbd74fa1daa66cdb",
+    "0xcf7b828f270c0da",
+    "0x514ffb7f3c089dd3",
+    "0xecd0f0316b7cccbd",
+    "0x17cd7e33c5e57359"
+  ],
+  "gamma": [
+    [
+      "0x5db84357ce785d09",
+      "0xe5f0921e86ad769f",
+      "0xcf7b828f270c0db",
+      "0xa1e83c9e0d85cb4f"
+    ],
+    [
+      "0xdf5654583f97db0",
+      "0xf1ccc1c422ded72d",
+      "0x17e4837a3107c6a2",
+      "0xe7cea7cd2aec6da2"
+    ],
+    [
+      "0xef055b992a49dd0",
+      "0xf2c9f1383383374c",
+      "0x19df1d875e140315",
+      "0xb27791b14c6c4396"
+    ]
+  ],
+  "polynomials": [
+    [
+      "0x19c9369f278adc03",
+      "0x447175c8e9f2810b",
+      "0xb848d14948d52b97",
+      "0x0",
+      "0x19c9369f278adc02"
+    ],
+    [
+      "0xfc39a481a127aa9d",
+      "0x19c9369f278adc03",
+      "0xb848d14948d52b96",
+      "0xa181e7d66f5ff794",
+      "0x19c9369f278adc03"
+    ],
+    [
+      "0x0",
+      "0x447175c8e9f2810a",
+      "0x447175c8e9f2810a",
+      "0x447175c8e9f2810a",
+      "0xb848d14948d52b96"
+    ]
+  ],
+  "generator": [
+    [
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0xdf5654583f97db0",
+      "0xf1ccc1c422ded72d",
+      "0x17e4837a3107c6a2",
+      "0xe7cea7cd2aec6da2",
+      "0xef055b992a49dd0",
+      "0xf2c9f1383383374c",
+      "0x19df1d875e140315",
+      "0xb27791b14c6c4396"
+    ],
+    [
+      "0x5db84357ce785d09",
+      "0xe5f0921e86ad769f",
+      "0xcf7b828f270c0db",
+      "0xa1e83c9e0d85cb4f",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0xef055b992a49dd0",
+      "0xf2c9f1383383374c",
+      "0x19df1d875e140315",
+      "0xb27791b14c6c4396"
+    ],
+    [
+      "0xfc39a481a127aa9d",
+      "0x5db84357ce785d08",
+      "0x527313c1e1c03b85",
+      "0xac4d5ad12033cc13",
+      "0x4a4ce526c7086867",
+      "0xebcd02f0a8579ff3",
+      "0xfd5895847236eaa2",
+      "0xac809f869c6db8ae",
+      "0x527313c1e1c03b84",
+      "0xae4ab74040e79119",
+      "0x5d416d96b690098f",
+      "0xb6e887fa743eccab"
+    ]
+  ],
+  "local_coefficients": [
+    [
+      [
+        "0x0",
+        "0x0"
+      ],
+      [
+        "0x1",
+        "0x0"
+      ],
+      [
+        "0x0",
+        "0x1"
+      ]
+    ],
+    [
+      [
+        "0x1",
+        "0x0"
+      ],
+      [
+        "0x0",
+        "0x0"
+      ],
+      [
+        "0x0",
+        "0x19c9369f278adc03"
+      ]
+    ],
+    [
+      [
+        "0x1",
+        "0x0"
+      ],
+      [
+        "0x1",
+        "0x0"
+      ],
+      [
+        "0x0",
+        "0x19c9369f278adc02"
+      ]
+    ]
+  ],
+  "annihilators": [
+    [
+      "0x19c9369f278adc02",
+      "0xa181e7d66f5ff794",
+      "0xfc39a481a127aa9d",
+      "0x0",
+      "0x1"
+    ],
+    [
+      "0xb848d14948d52b97",
+      "0x1",
+      "0x5db84357ce785d08",
+      "0x447175c8e9f2810b",
+      "0x1"
+    ],
+    [
+      "0xe5f0921e86ad769e",
+      "0x5db84357ce785d08",
+      "0x1",
+      "0xa181e7d66f5ff794",
+      "0x1"
+    ]
+  ]
+}

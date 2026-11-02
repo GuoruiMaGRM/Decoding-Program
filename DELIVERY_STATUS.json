@@ -1,0 +1,26 @@
+{
+  "artifact": "HHY_CPP_NTL",
+  "delivery_state": "source_only_uncompiled_unrun",
+  "compilation_executed_by_assistant": false,
+  "tests_executed_by_assistant": false,
+  "decoding_experiments_executed_by_assistant": false,
+  "new_performance_results_included": false,
+  "runtime_requires_sage": false,
+  "runtime_requires_python": false,
+  "historical_distinct_parameter_instances": 44,
+  "new_matched_polynomial_controls": 3,
+  "default_planned_parameter_instances": 47,
+  "same_code_baselines": [
+    "global_full", "global_screened", "rank_adaptive", "local_all",
+    "information_sets", "prefix_interpolation", "multi_radius", "gao_cpp"
+  ],
+  "gao_cpp_is_original_optimized_author_implementation": false,
+  "old_historical_H1_to_H5_included_as_paper_speed_evidence": false,
+  "notes": [
+    "Exact binary seed data are preserved in five snapshots.",
+    "Automatic HHY sources are reconstructed in C++, not substituted by polynomial controls.",
+    "Historical source selection and field bases are not promised bit-identical for Sage cases.",
+    "STRICT_M defaults to 1; incompatible source selections fail explicitly.",
+    "Only the user-run workflow can establish compilation, correctness and speed results."
+  ]
+}
